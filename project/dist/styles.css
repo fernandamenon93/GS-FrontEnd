@@ -1,0 +1,195 @@
+@charset "UTF-8";
+.header nav {
+  background-color: #007bff;
+}
+.header nav .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+.header nav .nav-link {
+  font-size: 1rem;
+  color: #fff;
+  transition: color 0.3s;
+}
+.header nav .nav-link:hover {
+  color: rgb(153, 202.2, 255);
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/hero-bg.jpg") center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 1.25rem;
+  font-weight: 300;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.hero .btn {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 50px;
+  background-color: #007bff;
+  color: #fff;
+  box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+.hero .btn:hover {
+  background-color: #0056b3;
+  box-shadow: 0 12px 20px rgba(0, 123, 255, 0.5);
+  transform: translateY(-3px);
+}
+
+.tipos {
+  background-color: #f8f9fa; /* Fundo claro para destacar */
+  padding: 4rem 0;
+}
+.tipos h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 2rem;
+}
+.tipos .card {
+  border: none;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.tipos .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.tipos .card .card-img-top {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.tipos .card .card-title {
+  font-size: 1.25rem;
+  color: #007bff;
+  margin-bottom: 0.5rem;
+}
+.tipos .card .card-text {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.beneficios {
+  background-color: #f8f9fa;
+  padding: 4rem 0;
+}
+.beneficios h2 {
+  text-align: center;
+  color: #007bff;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.beneficios ul {
+  list-style: none;
+  padding: 0;
+}
+.beneficios ul li {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  position: relative;
+  padding-left: 2rem;
+  color: #212529;
+}
+.beneficios ul li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 0.2rem;
+  color: #007bff;
+  font-size: 1.5rem;
+}
+
+.videos {
+  padding: 4rem 0;
+}
+.videos h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 2rem;
+}
+.videos iframe {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contato {
+  padding: 4rem 0;
+}
+.contato h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 2rem;
+}
+.contato form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.contato form .form-label {
+  font-size: 1rem;
+  color: #212529;
+}
+.contato form .form-control {
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #007bff;
+}
+.contato form .form-control:focus {
+  border-color: rgb(0, 98.4, 204);
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.contato form button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.contato form button:hover {
+  background-color: rgb(0, 98.4, 204);
+}
+
+.footer {
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+}
+.footer p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
